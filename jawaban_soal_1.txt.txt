@@ -1,0 +1,9 @@
+1. Apa itu merge conflict dan cara menanggulanginya?
+Merge conflict adalah istilah yang digunakan untuk menggambarkan situasi saat terdapat konflik antara perubahan yang dilakukan di dua cabang git yang berbeda saat menggabungkan perubahan tersebut. Ini biasanya terjadi ketika dua cabang mengedit bagian yang sama dari file yang sama.
+Cara menanggulangi merge conflict:
+1. Ketika sudah pasti terjadi merge conflict, segera perbarui cabang lokal dengan menggunakan perintah 'git pull'
+2. Setelah diperbarui, lakukan merge untuk menggabungkan perubahan dengan menggunakan perintah 'git merge'
+3. Setelah merge, perbaiki konflik secara manual dengan membuka file yang memiliki konflik (ciri file yang memiliki konflik ditandai dengan <<<<<<<<<<,=========, dan >>>>>>>>>>.
+4. Setelah konflik diperbaiki secara manual, tambah perubahan ke staging area menggunakan perintah 'git add'
+5. Lalu lanjutan proses penggabungan dengan mengggunakan perintah 'git merge --continue'
+6. Selesaikan penggabungan dengan menggunakan perintah 'git commit'

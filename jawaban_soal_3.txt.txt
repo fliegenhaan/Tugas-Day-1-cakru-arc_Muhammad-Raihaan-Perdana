@@ -1,0 +1,5 @@
+3. Apa itu fork dan pull request github?
+-Fork
+Fork adalah salinan dari repository di github yang dibuat oleh pengguna untuk dapat melakukan perubahan pada proyek tersebut secara independen (tanpa memengaruhi repository aslinya) dan tanpa memerlukan izin dari pemilik repository yang asli.
+-Pull  Request
+Pull Request sesuai dengan namanya, merupakan request atau permintaan dari pengguna untuk menggabungkan perubahan atas repository yang telah dibuat di cabang mereka ke dalam repository utama (proyek yang asli).

@@ -1,0 +1,3 @@
+2. Apa itu git rebase?
+Ketika melakukan merge pada git maka akan menghasilkan satu commit baru yang berisi catatan merge, tetapi kita kita melakukan rebase pada git atau 'git rebase' maka rebase hanya akan mengambil commit dari branch yang lain dan tidak akan membuat commit baru.
+Dengan kata lain git rebase mengubah history commit dengan cara menyusun kembali atau menggabungkan commit dari satu cabang ke cabang lainnya. Keuntungan dari git rebase ini antara lain: - Membuat history repository yang lebih bersih, - Memudahkan untuk membaca grafik commit. Tetapi ada satu kelemahan dari git rebase ini yaitu sulit diperbaiki jika terjadi konflik.
